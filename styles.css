@@ -169,6 +169,28 @@ body {
   color: var(--secondary-text-color);
   text-align: justify;
 }
+.skills__list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.skills__item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skills__item-name {
+  color: var(--primary-text-color);
+}
+
+.skills__item-level {
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 /*Experience and additional info styles*/
 .experiences {
