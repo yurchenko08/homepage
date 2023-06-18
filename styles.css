@@ -286,3 +286,32 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+.additional-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.additional-info__section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.additional-info__header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.additional-info__list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+.additional-info__item {
+  margin-bottom: 5px;
+  color: var(--secondary-text-color);
+}
